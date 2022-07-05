@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*----------------------Header----------------------*/
+.header {
+  padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .logo {
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header span {
+  color: #1b1d2d;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header a i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #002146;
+  font-size: 20px;
+  color: #fdc800;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.header .navbar {
+  padding: 20px;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: #1b1d2d;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*---------------------End Header--------------------*/
+
+/*----------------------Carousel----------------------*/
+.carousel {
+  background-image: url(../img/2.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+/*---------------------End Carousel--------------------*/
+
+
+/*----------------------Introduce----------------------*/
+
+.introduce {
+  padding: 70px 0;
+}
+
+.introduce .row .col {
+  float: left;
+  width: 50%;
+}
+
+.introduce .item .introleft {
+  padding-right: 80px;
+}
+
+.introduce .item .introleft h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.introduce .item .introleft p {
+  font-size: 18px;
+  color: #797979;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+
+.introduce .item .introleft a {
+  text-decoration: none;
+  color: #002146;
+  background-color: #fdc800;
+  font-size: 15px;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.introduce .introright {
+  background-image: url(../img/g1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+/*--------------------End Introduce--------------------*/
+
+
+/*----------------------Statistic----------------------*/
+.statistic {
+  background-color: #f6f6f6;
+}
+
+.statistic .row .col {
+  float: left;
+  width: 25%;
+}
+
+.statistic .row .col .item {
+  padding: 50px 0;
+}
+
+.statistic .row .col .item .number {
+  font-size: 60px;
+  font-weight: 700;
+  padding-right: 15px;
+  float: left;
+}
+
+.statistic .row .col .item .word {
+  font-size: 20px;
+  font-weight: 500;
+  float: left;
+  padding-top: 10px;
+}
+/*--------------------End Statistic--------------------*/
+
+
+/*-----------------------Service-----------------------*/
+.service {
+  padding: 50px 0;
+}
+.service .mainfirst .row .col {
+  float: left;
+  width: 25%;
+  padding: 20px 20px;
+
+}
+
+.service .mainsecond .row .col {
+  float: left;
+  width: 25%;
+  padding: 20px 20px;
+}
+
+.service .row .col .item {
+  text-align: center;
+  background-color: #002146;
+  color: #ffffff;
+  padding: 50px ;
+  border-radius: 10px;
+}
+
+.service .row .col .item i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.service .row .col .item p {
+  font-size: 20px;
+}
+/*--------------------End Service--------------------*/
+
+
+/*-----------------------Event-----------------------*/
+.event {
+  background-color: #f6f6f6;
+  padding: 70px 0;
+}
+
+.event .lastest-event {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+}
+
+.event h2 {
+  font-size: 40px;
+  padding: 40px 0;
+}
+
+.event .lastest-event .row .col {
+  background-color: #ffffff;
+}
+
+.event .lastest-event .item {
+  padding: 30px;
+}
+
+.event .lastest-event .col .itemfirst {
+  float: left;
+  width: 25%;
+}
+
+.event .lastest-event .col .itemsecond {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
+.event .lastest-event .col .item img {
+  width: 100%;
+  height: 120px;
+}
+
+.event .lastest-event .col .item h3 {
+  color: #1b1d2d;
+  font-size: 22px;
+}
+
+.event .lastest-event .col .item span {
+  color: #939393;
+  font-size: 18px;
+}
+
+.event .lastest-event .col .item p {
+  font-size: 18px;
+}
+
+.event .main .item .itemsecond {
+  padding-right: 30px;
+  line-height: 1.5;
+}
+
+.event .col .underline hr {
+  border: 1px solid #eeeeee;
+}
+
+.event .new-event {
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+}
+
+.new-event .row .col {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.new-event .row .col .item {
+  padding: 20px 20px;
+}
+
+.new-event .row .col .item .item-third {
+  float: left;
+  width: 15%;
+}
+
+.new-event .row .col .item .item-quater {
+  float: left;
+  width: 85%;
+  padding: 0 30px;
+}
+
+.new-event .row .col .item .calendar {
+  text-align: center;
+
+}
+
+.new-event .row .item .calendar .date {
+  padding: 10px 30px;
+  background-color: #fdc800;
+  border-radius: 10px 10px 0 0;
+}
+
+.new-event .row .item .calendar .year {
+  padding: 10px 20px;
+  background-color: #002146;
+  color: #ffffff;
+  border-radius: 0 0 10px 10px;
+}
+
+.new-event .row .item .calendar .date .daynumber {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.new-event .row .item .calendar .date .month {
+  font-size: 15px;
+}
+
+.new-event .row .col .item-quater p {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+.new-event .row .col .item-quater .description {
+  color: #002146;
+  font-weight: 500;
+}
+
+.event .btn {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.new-event .btn {
+  margin-top: -30px;
+}
+
+.event button {
+  border: none;
+  padding: 15px 30px;
+  background-color: #fdc800;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*--------------------End Event--------------------*/
+
+/*----------------------Footer---------------------*/
+.footer {
+  background-color: #002146;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.footer .row .col {
+  width: calc(100% / 3);
+  float: left;
+}
+
+.footer .row .col .item h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.footer .row .col .item i {
+  color: #fdc800;
+}
+
+.footer .row .col .item span {
+  padding-left: 10px;
+}
+
+.footer .row .col .item ul {
+  list-style: none;
+  line-height: 2;
+  font-size: 18px;
+}
+.footer .row .col .item  a{
+text-decoration: none;
+color: #ffffff;
+
+}
+
+.footer .linetext {
+  text-align: center;
+  padding: 20px 0;
+  opacity: 0.2;
+}
+
+.footer .license {
+  font-size: 18px;
+}
+/*--------------------End Footer--------------------*/
